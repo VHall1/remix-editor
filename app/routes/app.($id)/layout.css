@@ -1,0 +1,11 @@
+@media screen and (min-width: theme("screens.lg")) {
+  .layout {
+    height: 100vh;
+    display: grid;
+    grid-template-areas:
+      "nav header"
+      "nav editor";
+    grid-template-columns: minmax(max-content, 12.8125rem) 1fr;
+    grid-template-rows: max-content 1fr;
+  }
+}
